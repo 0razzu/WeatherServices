@@ -54,16 +54,16 @@ public class HtmlWeatherWidget extends WeatherWidget {
                 "        display: inline-block\n" +
                 "    }\n" +
                 "\n" +
-                "    #city { \n" +
-                "        width: 10em; \n" +
+                "    #city {\n" +
+                "        width: 10em;\n" +
                 "        background: " + cityColor + ";\n" +
                 "        padding: 5px;\n" +
                 "        float: left\n" +
                 "    }\n" +
                 "\n" +
-                "    #temperature { \n" +
-                "        width: 3em;\n" +
-                "        background: " + temperatureColor + "; \n" +
+                "    #temperature {\n" +
+                "        width: 5em;\n" +
+                "        background: " + temperatureColor + ";\n" +
                 "        padding: 5px;\n" +
                 "        float: right\n" +
                 "    }\n" +
