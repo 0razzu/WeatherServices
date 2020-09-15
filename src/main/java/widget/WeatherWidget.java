@@ -3,7 +3,7 @@ package widget;
 
 public class WeatherWidget {
     private String city;
-    private int currentTemperature;
+    private double currentTemperature;
     
     
     public WeatherWidget() {
@@ -15,7 +15,7 @@ public class WeatherWidget {
     }
     
     
-    public void setCurrentTemperature(int currentTemperature) {
+    public void setCurrentTemperature(double currentTemperature) {
         this.currentTemperature = currentTemperature;
     }
     
@@ -25,7 +25,7 @@ public class WeatherWidget {
     }
     
     
-    public int getCurrentTemperature() {
+    public double getCurrentTemperature() {
         return currentTemperature;
     }
     
